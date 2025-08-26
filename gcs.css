@@ -1,0 +1,500 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    margin-top: -0.57%;
+    margin-left: -0.57%;
+}
+
+.logoimage{
+    height: 8.6rem;
+    width: 16rem;
+    margin-top: -1.8%;
+    margin-left: 0.8%;
+}
+
+nav{
+    display: flex;
+    padding-left: 45%;
+}
+
+.a1{
+    color: #000;
+    text-decoration: none;
+    padding-left: 100px;
+    margin-top: -11%;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a1:hover{
+    color: green;
+}
+
+.first {
+    height: 600px;
+    width: 101.3%;
+    margin-left: -0.68%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 8s infinite;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+        url(requirements/images/hr-manager-welcoming-successful-candidate.jpg);
+}
+
+@keyframes slider {
+    0%,
+    22% {
+        background-image: 
+            linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+            url(requirements/images/hr-manager-welcoming-successful-candidate.jpg);
+    }
+    33% {
+        background-image: 
+            linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+            url(requirements/images/businessman-with-cv.jpg);
+    }
+    66% {
+        background-image: 
+            linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+            url(requirements/images/black-businesswoman-shaking-hands-with-male-partner.jpg);
+    }
+    100% {
+        background-image: 
+            linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+            url(requirements/images/black-businessman-happy-expression.jpg);
+    }
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    margin-top: 17%;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.auto-text {
+    font-size: 30px;
+    display: inline-block;
+    white-space: pre; /* preserves whitespace and line breaks */
+    border-right: 3px solid rgb(122, 117, 117);
+    padding-right: 5px;
+    text-shadow: 2px 2px 18px rgba(0, 0, 0, 0.5);
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+    margin-left: 34%;
+    color: white;
+  }
+
+
+.join {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-left: 45%;
+    animation: bounce 4s infinite;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 104px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-20px);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+    80% {
+        transform: translateY(0);
+    }
+}
+
+
+
+.join:hover {
+    font-size: 21px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.second {
+   background-color: white;
+   height: 515px;
+}
+
+.wwd{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #302e2e;
+}
+
+.content1 {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+}
+
+#wwdbox {
+    width: 28%;
+    height: 30px;
+    border: 1px white;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+#wwdboxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+#icons {
+    color: rgb(28, 26, 26);
+    font-size: 4rem; /* Larger icon */
+    margin-bottom: 18px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#wwdbox:hover #icons {
+    color: green;
+}
+
+.wwdtitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+   padding-left: 20%;
+   margin-top: 80px;
+}
+
+.contents {
+    font-size: 1.08rem;
+    color: #434;
+    text-align: center;
+    margin-top: 8px;
+    line-height: 1.6;
+}
+
+/* Why Choose Us Section Styles */
+.features {
+    background: white;
+    padding: 60px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-title h2 {
+    font-size: 2.3rem;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.section-title p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: center;
+}
+.feature-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px 24px;
+    flex: 1 1 280px;
+    max-width: 320px;
+    min-width: 260px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 2px solid white;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 18px;
+    transition: color 0.2s;
+}
+.feature-card:hover .feature-icon {
+    color: green;
+}
+.feature-card h3 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.feature-card p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.user{
+    background: white;
+    height: 350px;
+}
+
+.usertitle{
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 12px;
+    font-weight: 600;
+    margin-left: 46%;
+}
+
+.users{
+    font-size: 110px;
+    margin-left: 37%;
+}
+
+ .newsletter {
+            padding: -1rem 0;
+            background: white;
+            color: black;
+            text-align: center;
+        }
+        
+        .newsletter-content {
+            max-width: 600px;
+            margin: 0 auto;
+            color: black;
+        }
+        
+        .newsletter h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: black;
+        }
+        
+        .newsletter p {
+            margin-bottom: 2rem;
+            color: black;
+        }
+        
+        .newsletter-form {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .newsletter-form input {
+            flex: 1;
+            padding: 8px 15px;
+            border: black;
+            border-radius: 50px 0 0 44px;
+            font-size: 1rem;
+            outline: none;
+            background: white;
+            margin-top: -10%;
+        }
+        
+        .newsletter-form button {
+            padding: 0 25px;
+            color: black;
+            border: none;
+            border-radius: 0 50px 50px 0;
+            cursor: pointer;
+            font-weight: 600;
+            background-color: white;
+            margin-top: -10%;
+        }
+        
+        .newsletter-form button:hover {
+            background: white;
+            letter-spacing: -1px;
+        }
+
+        .site-footer {
+            background-color: black;
+            color: white;
+            padding: 80px 5vw 30px;
+            position: relative;
+            width: 91%;
+            margin-left: -0.6%;
+            margin-bottom: -10%;
+        }
+
+        .footer-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .footer-section h4 {
+            color: white;
+            margin-bottom: 25px;
+            font-size: 1.2rem;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-section h4::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 2px;
+            background-color: white;
+        }
+
+        .footer-logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+            filter: brightness(0) invert(1);
+        }
+
+        .footer-links li {
+            list-style: none;
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: #bbb;
+            text-decoration: none;
+            transition: var(--transition);
+            display: inline-block;
+        }
+
+        .footer-links a:hover {
+            color: whitesmoke;
+            transform: translateX(1px);
+        }
+
+        .contact-info p {
+            color: #bbb;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .contact-info i {
+            color: var(--primary);
+            margin-top: 3px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-icon:hover {
+            background-color: black;
+            transform: translateY(-0.5px);
+        }
+
+        .social-icon img {
+            width: 20px;
+            height: 20px;
+            filter: brightness(0) invert(1);
+        }
+
+       
+        .footer-bottom {
+            text-align: center;
+            padding-top: 15px;
+            margin-top: 24px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #bbb;
+            font-size: 0.9rem;
+        }
+
+        #ya{
+            background-color: black;
+        }
+
+         .footer-column h3 {
+            color: white;
+            margin-bottom: 25px;
+            font-size: 1.2rem;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 2px;
+            background-color: white;
+        }
+
+        .footer-column p {
+            margin-bottom: 15px;
+            color: #dfe4ea;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+
+        
+
